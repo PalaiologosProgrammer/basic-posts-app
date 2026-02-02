@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "health_check/index"
   namespace :admin do
       resources :comments
       resources :likes
