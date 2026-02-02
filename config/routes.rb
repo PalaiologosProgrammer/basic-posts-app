@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  namespace :admin do
+      resources :comments
+      resources :likes
+      resources :notifications
+      resources :posts
+      resources :users
+
+      root to: "comments#index"
+    end
   devise_for :users
   root "posts#index"
   resources :posts
