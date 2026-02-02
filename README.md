@@ -20,27 +20,29 @@ A modern Rails 8 application with Tailwind CSS for managing posts with clean, re
 - **Importmaps** - No Node.js required for JavaScript
 
 ## 📁 Project Structure
+```
 post_app/
 ├── app/
-│ ├── controllers/
-│ │ └── posts_controller.rb
-│ ├── models/
-│ │ └── post.rb
-│ ├── views/
-│ │ └── posts/
-│ │ ├── index.html.erb
-│ │ ├── show.html.erb
-│ │ ├── new.html.erb
-│ │ ├── edit.html.erb
-│ │ └── _form.html.erb
-│ └── assets/
-│ └── stylesheets/
-│ └── application.tailwind.css
+│   ├── controllers/
+│   │   └── posts_controller.rb
+│   ├── models/
+│   │   └── post.rb
+│   ├── views/
+│   │   └── posts/
+│   │       ├── index.html.erb
+│   │       ├── show.html.erb
+│   │       ├── new.html.erb
+│   │       ├── edit.html.erb
+│   │       └── _form.html.erb
+│   └── assets/
+│       └── stylesheets/
+│           └── application.tailwind.css
 ├── config/
-│ └── routes.rb
+│   └── routes.rb
 └── db/
-├── schema.rb
-└── migrate/
+    ├── schema.rb
+    └── migrate/
+```
 
 
 ## 🚦 Getting Started
