@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem 'devise'
 gem 'ransack'
 gem 'administrate'
+gem 'sitemap_generator'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.2"
