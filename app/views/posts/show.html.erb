@@ -7,6 +7,8 @@
 
   <h1 class="font-bold text-4xl">Showing post</h1>
 
+  <%= image_tag post.image if post.image.attached? %>
+
   <%= render @post %>
 
   <%= link_to "Edit this post", edit_post_path(@post), class: "w-full sm:w-auto text-center rounded-md px-3.5 py-2.5 bg-gray-100 hover:bg-gray-50 inline-block font-medium" %>
