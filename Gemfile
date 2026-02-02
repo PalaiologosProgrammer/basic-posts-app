@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 gem 'devise'
 
+gem 'ransack'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.2"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
@@ -67,3 +69,6 @@ group :test do
 end
 
 gem "pundit", "~> 2.5"
+
+gem "heroicon", "~> 1.0"
+"gem 'heroicon'" 
